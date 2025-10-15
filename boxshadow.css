@@ -1,0 +1,61 @@
+body {
+    background-color: lightslategray;
+}
+.parent {
+margin: 50px;
+}
+
+.sub-parent1, .sub-parent2, .sub-parent3 {
+    /* display: inline-block; */
+    width: 100%;
+    margin: 50px;
+    margin-left: 300px;
+}
+.sub-parent1 > button {
+    background-color: lightskyblue;
+    border: none;
+    width: 200px;
+    height: 80px;
+    margin-left: 80px;
+    cursor: pointer;
+    box-shadow: 10px 10px 12px lightseagreen;
+    transition: all 0.3s ease-out 0s;
+    /* position: fixed; */
+}
+.sub-parent2 > button {
+    background-color: lightcoral;
+    border: none;
+    width: 200px;
+    height: 80px;
+    margin-left: 80px;
+    cursor: pointer;
+    box-shadow: 10px 10px 12px lightskyblue;
+    transition: all 0.3s ease-out 0s;
+}
+.sub-parent3 > button {
+    background-color: lightseagreen;
+    border: none;
+    width: 200px;
+    height: 80px;
+    margin-left: 80px;
+    cursor: pointer;
+    box-shadow: 10px 10px 12px lightcoral;
+    transition: all 0.3s ease-out 0s;
+}
+
+button:hover {
+    width: 205px;
+    height: 83px;
+}
+
+h3 {
+    text-shadow: 5px 5px 12px;
+    /* position: relative; */
+}
+
+h1 {
+    text-align: center;
+    color: crimson;
+    font-size: 50px;
+    text-shadow: 15px 15px 22px black;
+}
